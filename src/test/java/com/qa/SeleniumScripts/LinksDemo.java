@@ -37,7 +37,9 @@ public class LinksDemo {
 	driver.close();
 	
 	
+	//driver.findElement(By.linkText("Create a Web Page 101")).click();
 	
+	//driver.findElement(By.partialLinkText("What exactly is ")).click()
 	
 	
 	
