@@ -28,7 +28,7 @@ public WebDriver driver;
 	{
 		driver.get("https://www.wikipedia.org/");
 		driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.SECONDS);
-		driver.findElement(By.id("searchInput")).sendKeys("Automation testing");
+		driver.findElement(By.id("searchInput")).sendKeys("AutomationTesting");
         Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
