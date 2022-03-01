@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class CrossBrowsertest {
 	
 	// check if you have firefox browser in your machine
-	// check if you have installed gecko driver
+	// check if you have installed geckodriver
 	
 	public WebDriver driver;
 	
