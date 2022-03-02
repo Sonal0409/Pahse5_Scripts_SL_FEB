@@ -17,8 +17,12 @@
        <class name="com.qa.TestNGScripts.Day4.TestGroupDemo" />
     </classes>
   </test>
- 
+  
+   <test name="TestNgScripts2" >
 
-  
-  
+    <classes>
+       <class name="com.qa.TestNGScripts.Day4.NewScript" />
+    </classes>
+  </test>
+ 
 </suite>
